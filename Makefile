@@ -12,6 +12,7 @@ vim_session:
 
 ######################################################################
 
+Ignore += p1
 p1:
 	cp -r ../tz_pipeline $@ \
 	|| git clone https://github.com/wzmli/rabies_db_pipeline $@
